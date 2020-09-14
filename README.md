@@ -1,13 +1,14 @@
 # ProjectAbby
 
 Abby - ROS-Based Variable Vehicle Autonomy
+
 The code to allow a vehicle to run autonomously using an Nvidia Jetson and Arduino. It uses two neural networks; one determines if the vehicle's path is blocked, and if it is, the second one determines if the buggy must turn left or right. It's all implemented using ROS with nodes for the steering controls, steering filtering, and autonomy.
 
 ## Motivation
 
 All across the world, millions of cars crowd the roads and spew tons of greenhouse gases into the air. This can be deadly for drivers and their passengers; In the United States, 37,133 deaths occurred as a result of car accidents in 2017 alone. Even safe driving is harmful to the environment, so how can these problems be answered? Duke Energy and UCF are seeking this answer via our project, the interdisciplinary Solar Powered Beach Buggy challenge. We have worked with three teams of mechanical engineers who have designed and built buggies that will be driven by our module, a system of ultrasonic sensors, a depth camera, and a processor. Our project explores two possible solutions to reduce fuel consumption and injury: the use of solar power to reduce emissions and the use of autonomous navigation to prevent the need for a human driver. We would consider it a success if it can in any way encourage or further the development of sustainably powered autonomous vehicles.
 
-The nickname for our project comes from travelling point A to point B. I obscured names for posting to GitHub. Both the conference paper we wrote and our 93 design document are on here.
+The nickname for our project comes from travelling point A to point B. I obscured names for posting to GitHub. Both the [conference paper](https://github.com/vphan404/Project-Abby/blob/master/Buggy_Conference_Paper.pdf) we wrote and our [93 design document](https://github.com/vphan404/Project-Abby/blob/master/Buggy_Design_Document.pdf) are on here.
 
 ## Requirements
 
